@@ -28,12 +28,12 @@ class Program
 {
     static void Main(string[] args)    {
         var watch = new StopWatch();
+				System.Console.WriteLine("Press any key to start the watch");
+				Console.ReadKey();
         watch.Start();
-        Thread.Sleep(2000);
+				System.Console.WriteLine("Press any key to stop the watch");
+				Console.ReadKey();
         watch.StopTheWatch();
-        watch.Start();
-        Thread.Sleep(1000);
-        watch.StopTheWatch();
-        Console.WriteLine("(F) Full date/long time: {0}\n", watch.Total().Second);
+        Console.WriteLine("Time in milliseconds: {0}\n", watch.Total().Millisecond);
     }
 }
