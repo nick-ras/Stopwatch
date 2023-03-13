@@ -7,8 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Amazon1\Amazon1.csproj" />
-  </ItemGroup>
-
 </Project>

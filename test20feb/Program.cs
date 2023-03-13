@@ -1,10 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using Amazon1;
 using System;
 
 namespace stopwatch;
 
 
+/* created a stopwatch class with methods that can be used to start and stop the watch and return the time that has elapse
+*/
 class StopWatch
 {
     private DateTime StartPressed;
@@ -25,7 +26,6 @@ class StopWatch
 
 class Program
 {
-
     static void Main(string[] args)    {
         var watch = new StopWatch();
         watch.Start();
